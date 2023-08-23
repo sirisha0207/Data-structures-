@@ -1,0 +1,89 @@
+}
+
+
+
+ * Checks if queue is full or not. It returns 1 if queue is full, 
+ * overwise returns 0.
+ 
+int isFull()
+{
+    return (size == CAPACITY);
+}
+
+
+
+ * Checks if queue is empty or not. It returns 1 if queue is empty, 
+ * otherwise returns 0.
+ 
+int isEmpty()
+{
+    return (size == 0);
+}
+
+
+
+ * Gets, front of the queue. If queue is empty return INT_MAX otherwise
+ * returns front of queue.
+ 
+int getFront()
+{
+    return (isEmpty())
+            ? INT_MIN
+            : queue[front];
+}
+
+
+
+ * Gets, rear of the queue. If queue is empty return INT_MAX otherwise
+ * returns rear of queue.
+ 
+int getRear()
+{
+    return (isEmpty())
+            ? INT_MIN
+            : queue[rear];
+}
+
+
+
+ * Checks if queue is full or not. It returns 1 if queue is full, 
+ * overwise returns 0.
+ 
+int isFull()
+{
+    return (size == CAPACITY);
+}
+
+
+
+ * Checks if queue is empty or not. It returns 1 if queue is empty, 
+ * otherwise returns 0.
+ 
+int isEmpty()
+{
+    return (size == 0);
+}
+
+
+
+ * Gets, front of the queue. If queue is empty return INT_MAX otherwise
+ * returns front of queue.
+ 
+int getFront()
+{
+    return (isEmpty())
+            ? INT_MIN
+            : queue[front];
+}
+
+
+
+ * Gets, rear of the queue. If queue is empty return INT_MAX otherwise
+ * returns rear of queue.
+ 
+int getRear()
+{
+    return (isEmpty())
+            ? INT_MIN
+            : queue[rear];
+}
